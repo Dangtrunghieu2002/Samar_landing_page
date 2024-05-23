@@ -1,0 +1,243 @@
+*{
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header{
+    padding-left: 140px;
+}
+
+.header span{
+    margin-left: 10px;
+}
+
+.header .nav_bar ul li{
+    margin-right: 80px;
+}
+
+.header .nav_bar ul li:hover{
+    text-decoration: underline;
+}
+
+/* Carousel CSS */
+.carousel{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.carousel .carousel_content h1{
+    font-family: "Saira Semi Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 64px;
+}
+
+.carousel .carousel_content span{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 55px;
+    color: #797979;
+}
+
+.carousel img{
+    width: 50%;
+    height: 50%;
+}
+
+
+/* About CSS */
+.about{
+    margin-left: 280px;
+    margin-right: 280px;
+    padding-top: 250px;
+}
+
+.about .about_content{
+    background-color:#FBFBFB ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .about_img{
+    display: flex;
+    margin-right: 40px;
+}
+
+.about .about_img .about_item1{
+    display: grid;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+
+.about .about_img .about_item2{
+    padding-top: 50px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+}
+
+.about .about_content .about_text{
+    padding-right: 100px;
+}
+
+.about .about_content .about_text h1{
+    font-family: "Saira Semi Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 64px;
+}
+
+.about .about_content .about_text p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.about .about_content .about_text button{
+    display: flex;
+    background-color: #D9D9D9;
+    border: none;
+    width: 222px;
+    height: 71px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px; 
+}
+
+/* mission CSS */
+.mission{
+    padding-top: 250px;
+    padding-left: 180px;
+    padding-right: 600px;
+    padding-bottom: 180px;
+}
+
+.mission .mission_header{
+    color: #797979;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 64px;
+}
+
+.mission .mission_content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.mission .mission_content .mission_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.mission .mission_content .mission_item h1{
+    color: #D7D7D7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 200px;
+}
+
+.mission .mission_content .mission_item p{
+    padding-left: 20px;
+    padding-bottom: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+}
+
+
+.footer{
+    background-color: #2C2C2C;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.footer .footer_info{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer .footer_info ul{
+    list-style: none;
+}
+
+.footer .footer_info ul span{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.footer .footer_info ul li{
+    margin-top: 20px;
+}
+
+.footer .footer_info ul li i{
+    font-size: 20px;
+
+}
+
+.footer .footer_info ul li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.footer .footer_info .social_media span{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.footer .footer_info .social_media .social_item{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.footer .footer_info .social_media .social_item a{
+    margin-right: 20px;
+}
+
+.footer .footer_info .social_media .social_item a i{
+    font-size: 18px;
+    color: white;
+}
+
+.footer_watermark{
+    display: flex;
+    color: #C8C8C880;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 140px;
+}
+
+.footer_watermark p{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
