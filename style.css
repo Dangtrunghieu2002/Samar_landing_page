@@ -167,6 +167,23 @@ html, body{
     border: 3px solid transparent;
 }
 
+.services .container .services_content .services_item:hover {
+    transform: translateY(-20px);
+    border-image: url(../img/br.png) 1 round;
+}
+
+
+.services .container .services_content.services_item img {
+    width: 215px;
+}
+
+.services .container .services_content .services_item h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #262626;
+    margin: 15px 0;
+}
+
 /* About */
 .about{
     padding-top: 120px;
@@ -367,10 +384,18 @@ html, body{
     transition: all 1s;
 }
 
+.features .container .features_content .features_left .features_group .features_item .features_bg:hover i{
+    color:white;
+}
+
 .features .container .features_content .features_left .features_group .features_item .features_bg div{
     padding-left: 25px;
     z-index: 1;
     transition: all 1s;
+}
+
+.features .container .features_content .features_left .features_group .features_item .features_bg:hover div{
+    color:white;
 }
 
 .features .container .features_content .features_right{
